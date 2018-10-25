@@ -21,7 +21,7 @@ spec:
       port: 8080
       name: admin
   type: LoadBalancer
-  loadBalancerIP: 192.168.1.20
+  loadBalancerIP: 192.168.0.67
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
@@ -30,7 +30,7 @@ metadata:
   namespace: kube-system
 spec:
   rules:
-  - host: traefik.internal.carlosedp.com
+  - host: traefik.internal.cluster.lan
     http:
       paths:
       - path: /

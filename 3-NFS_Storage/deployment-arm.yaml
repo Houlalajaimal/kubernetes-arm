@@ -14,17 +14,18 @@ spec:
       serviceAccount: nfs-client-provisioner
       containers:
         - name: nfs-client-provisioner
-          image: quay.io/external_storage/nfs-client-provisioner-arm:latest
+          image: nfs-client-provisioner-arm64:1.0
+          imagePullPolicy: Never
           volumeMounts:
             - name: nfs-client-root
               mountPath: /persistentvolumes
           env:
             - name: PROVISIONER_NAME
-              value: fuseim.pri/ssd1
+              value: fuseim.pri/usbhd0
             - name: NFS_SERVER
-              value: 192.168.1.55
+              value: 192.168.0.42
             - name: NFS_PATH
-              value: /mnt/extssd1/kube
+              value: /srv/nfs4/cluster/nfspod
       affinity:
         podAntiAffinity:
           preferredDuringSchedulingIgnoredDuringExecution:
@@ -40,5 +41,5 @@ spec:
       volumes:
         - name: nfs-client-root
           nfs:
-            server: 192.168.1.55
-            path: /mnt/extssd1/kube
+            server: 192.168.0.42
+            path: /srv/nfs4/cluster/nfspod
