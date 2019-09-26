@@ -1,0 +1,30 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  labels:
+    k8s-app: happyhouse-web
+  name: happyhouse-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      k8s-app: happyhouse-web
+  template:
+    metadata:
+      labels:
+        k8s-app: happyhouse-web
+    spec:
+      containers:
+        - name: happyhouse-web
+          image: nginx
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+          volumeMounts:
+            - name: happyhouse-web-static
+              mountPath: /usr/share/nginx/html
+      volumes:
+        - name: happyhouse-web-static
+          nfs: 
+            server: 192.168.0.42 
+            path: /srv/nfs4/happyhouse 

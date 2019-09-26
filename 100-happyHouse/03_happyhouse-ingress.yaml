@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: happyhouse-web
+  annotations:
+    traefik.frontend.rule.type: PathPrefix
+spec:
+  rules:
+  - host: happyhouse.internal.cluster.lan
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: happyhouse-web
+          servicePort: 80
