@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: pihole
+  annotations:
+    traefik.frontend.rule.type: PathPrefix
+spec:
+  rules:
+  - host: dns.internal.cluster.lan
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: pihole
+          servicePort: 8000

@@ -2,10 +2,11 @@ kind: Deployment
 apiVersion: extensions/v1beta1
 metadata:
   name: nfs-client-provisioner
+  namespace: nfs-storage
 spec:
   replicas: 2
   strategy:
-    type: Recreate
+    type: RollingUpdate
   template:
     metadata:
       labels:
@@ -14,18 +15,18 @@ spec:
       serviceAccount: nfs-client-provisioner
       containers:
         - name: nfs-client-provisioner
-          image: nfs-client-provisioner-arm64:1.0
-          imagePullPolicy: Never
+          image: houlalajaimal/nfs-client-provisioner-arm64:1.0 
+          imagePullPolicy: IfNotPresent
           volumeMounts:
             - name: nfs-client-root
               mountPath: /persistentvolumes
           env:
             - name: PROVISIONER_NAME
-              value: fuseim.pri/usbhd0
+              value: nfs-provisioner/nfs-usbhd0
             - name: NFS_SERVER
               value: 192.168.0.42
             - name: NFS_PATH
-              value: /srv/nfs4/cluster/nfspod
+              value: /srv/nfs4/k8s-nfs-storage
       affinity:
         podAntiAffinity:
           preferredDuringSchedulingIgnoredDuringExecution:
@@ -33,13 +34,13 @@ spec:
             podAffinityTerm:
               labelSelector:
                 matchExpressions:
-                - key: role
+                - key: app
                   operator: In
                   values:
-                  - data
+                  - nfs-client-provisioner
               topologyKey: kubernetes.io/hostname
       volumes:
         - name: nfs-client-root
           nfs:
             server: 192.168.0.42
-            path: /srv/nfs4/cluster/nfspod
+            path: /srv/nfs4/k8s-nfs-storage

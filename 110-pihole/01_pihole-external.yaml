@@ -1,0 +1,34 @@
+kind: Service
+  apiVersion: v1
+  metadata:
+    name: pihole-web
+  spec:
+    ports:
+      - protocol: TCP
+        port: 80
+        targetPort: 2980 
+---
+  kind: Endpoints
+  apiVersion: v1
+  metadata:
+    name: pihole-web 
+  subsets: 
+    - addresses:
+        - ip: 192.168.0.29 #The IP Address of the external web server
+      ports:
+        - port: 2980 
+---
+kind: Ingress
+metadata:
+  name: pihole-web
+  annotations:
+    traefik.frontend.rule.type: PathPrefix
+spec:
+  rules:
+  - host: pihole.internal.cluster.lan
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: pihole-web
+          servicePort: 80
