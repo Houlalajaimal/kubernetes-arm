@@ -6,10 +6,10 @@ metadata:
     traefik.frontend.rule.type: PathPrefix
 spec:
   rules:
-  - host: dns.internal.cluster.lan
+  - host: pihole.internal.cluster.lan
     http:
       paths:
       - path: /
         backend:
-          serviceName: pihole
+          serviceName: pihole-web
           servicePort: 8000

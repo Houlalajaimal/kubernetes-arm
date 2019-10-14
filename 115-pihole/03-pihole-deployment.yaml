@@ -20,16 +20,66 @@ spec:
       - name: pihole
         image: pihole/pihole:latest
         imagePullPolicy: IfNotPresent
-        env:
-        - name: TZ
-          value: "Europe/Luxembourg"
-        - name: WEBPASSWORD
-          value: "secret"
+        resources:
+          limits:
+            memory: "256Mi"
+            cpu: "750m"
+        ports:
+        - containerPort: 53
+          name: dns-tcp
+          protocol: TCP
+        - containerPort: 53
+          name: dns-udp
+          protocol: UDP
+        - containerPort: 80
+          name: http
+          protocol: TCP
+        securityContext:
+          capabilities:
+            add:
+              - NET_ADMIN
+#        livenessProbe:
+#          httpGet:
+#            path: /admin.index.php
+#            port: 80
+#          initialDelaySeconds: 60
+#          periodSeconds: 5
+#        readinessProbe:
+#          httpGet:
+#            path: /admin.index.php
+#            port: 80
+#          initialDelaySeconds: 25
+#          periodSeconds: 5
+        envFrom:
+        - configMapRef:
+            name: pihole-config
         volumeMounts:
         - name: pihole-etc-volume
           mountPath: "/etc/pihole"
         - name: pihole-dnsmasq-volume
           mountPath: "/etc/dnsmasq.d"
+      - name: unbound
+        image: klutchell/unbound:arm64v8-1.9.3
+        ports: 
+        - containerPort: 5353
+          protocol: TCP
+          name: unbound-tcp
+        - containerPort: 5353
+          protocol: UDP
+          name: unbound-udp
+        volumeMounts:
+          - name: config-unbound
+            mountPath: /opt/unbound/etc
+#        livenessProbe:
+#          tcpSocket:
+#            port: 5353
+#          initialDelaySeconds: 30
+#          periodSeconds: 5
+#        readinessProbe:
+#          tcpSocket:
+#            port: 5353
+#          initialDelaySeconds: 25
+#          periodSeconds: 5
       volumes:
       - name: pihole-etc-volume
         persistentVolumeClaim:
@@ -37,3 +87,6 @@ spec:
       - name: pihole-dnsmasq-volume
         persistentVolumeClaim:
           claimName: pihole-dnsmasq-claim
+      - name: config-unbound
+        persistentVolumeClaim:
+          claimName: pihole-unbound-conf-claim
