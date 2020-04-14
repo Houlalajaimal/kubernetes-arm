@@ -16,14 +16,28 @@ spec:
         app: pihole
         name: pihole
     spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 1
+            preference:
+              matchExpressions:
+              - key : instanceType
+                operator: In
+                values:
+                - a4.medium
       containers:
       - name: pihole
-        image: pihole/pihole:latest
+        #image: pihole/pihole:4.3.2-1
+        image: pihole/pihole:v4.4
         imagePullPolicy: IfNotPresent
         resources:
           limits:
-            memory: "256Mi"
-            cpu: "750m"
+            memory: "200Mi"
+            cpu: "500m"
+          requests:
+            memory: "100Mi"
+            cpu : "250m"
         ports:
         - containerPort: 53
           name: dns-tcp
@@ -40,16 +54,20 @@ spec:
               - NET_ADMIN
 #        livenessProbe:
 #          httpGet:
-#            path: /admin.index.php
+#            path: /index.php
 #            port: 80
 #          initialDelaySeconds: 60
-#          periodSeconds: 5
+#          periodSeconds: 10
+#          timeoutSeconds: 2
+#          failureThreshold: 3
 #        readinessProbe:
 #          httpGet:
-#            path: /admin.index.php
+#            path: /index.php
 #            port: 80
 #          initialDelaySeconds: 25
-#          periodSeconds: 5
+#          periodSeconds: 10
+#          timeoutSeconds: 2
+#          failureThreshold: 3
         envFrom:
         - configMapRef:
             name: pihole-config
@@ -59,7 +77,14 @@ spec:
         - name: pihole-dnsmasq-volume
           mountPath: "/etc/dnsmasq.d"
       - name: unbound
-        image: klutchell/unbound:arm64v8-1.9.3
+        image: klutchell/unbound:1.9.3
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "20Mi"
+          limits:
+            cpu: "200m"
+            memory: "40Mi"
         ports: 
         - containerPort: 5353
           protocol: TCP
@@ -71,15 +96,22 @@ spec:
           - name: config-unbound
             mountPath: /opt/unbound/etc
 #        livenessProbe:
-#          tcpSocket:
-#            port: 5353
+#          exec:
+#            command:
+#              - "nslookup -port=5353"
+#              - "health.check.unbound"
+#              - "127.0.0.1"
 #          initialDelaySeconds: 30
-#          periodSeconds: 5
+#          periodSeconds: 10
+#          timeoutSeconds: 2
 #        readinessProbe:
-#          tcpSocket:
-#            port: 5353
+#          exec:
+#            command:
+#              - "nslookup -port=5353"
+#              - "health.check.unbound"
+#              - "127.0.0.1"
 #          initialDelaySeconds: 25
-#          periodSeconds: 5
+#          periodSeconds: 10
       volumes:
       - name: pihole-etc-volume
         persistentVolumeClaim:

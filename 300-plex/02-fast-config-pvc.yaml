@@ -1,0 +1,12 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: fast-plex-config-claim
+  annotations:
+    volume.beta.kubernetes.io/storage-class: "local-storage-fast"
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 50Gi

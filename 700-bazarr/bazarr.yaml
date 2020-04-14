@@ -1,0 +1,88 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bazarr
+spec:
+  ports:
+  - port: 6767
+    protocol: TCP
+    targetPort: 6767
+    name: webui
+  selector:
+    run: bazarr
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: bazarr
+  name: bazarr
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: bazarr
+  template:
+    metadata:
+      labels:
+        run: bazarr
+    spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 1
+            preference:
+              matchExpressions:
+              - key : instanceType
+                operator: In
+                values:
+                - a4.medium
+      securityContext:
+        # runAsUser: 1000
+        # runAsGroup: 1000
+        fsGroup: 1000
+      containers:
+      - env:
+        - name: TZ
+          value: Europe/Luxembourg
+        - name: PUID
+          value: "1000"
+        - name: PGID
+          value: "1000"
+        image: linuxserver/bazarr
+        name: bazarr
+        resources:
+          requests:
+            cpu: "200m"
+            memory: "100Mi"
+          limits:
+            cpu: "250m"
+            memory: "150Mi"
+#        livenessProbe:
+#          httpGet:
+#            path: /bazarr
+#            port: webui        
+#          initialDelaySeconds: 20
+#          periodSeconds: 15
+#        readinessProbe:
+#          httpGet:
+#            path: /bazarr
+#            port: webui        
+#          initialDelaySeconds: 20
+#          periodSeconds: 15 
+        ports:
+        - containerPort: 6767
+          name: webui
+        volumeMounts:
+        - name: bazarr-config
+          mountPath: /config
+        - name: bazarr-movies
+          subPath: movies
+          mountPath: /movies
+      volumes:
+      - name: bazarr-movies
+        persistentVolumeClaim:
+          claimName: plex-data-claim
+      - name: bazarr-config
+        persistentVolumeClaim:
+          claimName: bazarr-config-claim

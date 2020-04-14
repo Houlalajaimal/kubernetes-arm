@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: homeassistant
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: homeassistant
+  template:
+    metadata:
+      labels:
+        app: homeassistant
+    spec:
+      containers:
+      - name: homeassistant
+        image: homeassistant/home-assistant:0.105.3
+        imagePullPolicy: Always
+        volumeMounts:
+          - name: homeassistant
+            mountPath: /config
+          - name: localtime
+            mountPath: /etc/localtime
+#          - name: rfx433-config
+#            mountPath: /etc/init.d/rfx433
+#            subPath: rfx433
+#        command: ["sh"]
+#        args: ["-c", "/etc/init.d/rfx433 start && python -m homeassistant --config /config"]
+      volumes:
+#        - name: rfx433-config
+#          configMap:
+#            name: homeassistant-systemd-services
+#            defaultMode: 0755
+#            items: 
+#            - key: rfx433
+#              path: rfx433
+        - name: homeassistant
+          persistentVolumeClaim:
+            claimName: homeassistant
+        - name: localtime
+          hostPath:
+            path: /etc/localtime

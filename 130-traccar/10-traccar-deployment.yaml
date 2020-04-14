@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: traccar
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: traccar
+  template: 
+    metadata:
+      labels:
+        app: traccar
+    spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 1
+            preference:
+              matchExpressions:
+              - key : instanceType
+                operator: In
+                values:
+                - a4.medium
+      containers:
+      - name: traccar
+        image: houlalajaimal/traccar:4.6
+        imagePullPolicy: IfNotPresent
+        resources:
+          requests:
+            memory: "300Mi"
+            cpu: "150m"
+          limits:
+            memory: "400Mi"
+            cpu: "300m"
+        ports:
+        - containerPort: 8082
+          name: http
+          protocol: TCP
+        - containerPort: 5055
+          name: traccarclient
+          protocol: TCP
+        volumeMounts:
+        - name: traccar-config
+          mountPath: /opt/traccar/conf
+        - name: traccar-data
+          mountPath: /opt/traccar/data
+      volumes:
+      - name: traccar-config
+        persistentVolumeClaim:
+          claimName: traccar-config-claim
+      - name: traccar-data
+        persistentVolumeClaim:
+          claimName: traccar-data-claim

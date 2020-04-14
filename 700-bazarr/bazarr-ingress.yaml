@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: bazarr
+  annotations:
+    traefik.frontend.rule.type: PathPrefix
+spec:
+  rules:
+  - host: bazarr.int.volfoni.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: bazarr
+          servicePort: 6767 

@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: radarr
+  annotations:
+    traefik.frontend.rule.type: PathPrefix
+spec:
+  rules:
+  - host: radarr.int.volfoni.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: radarr
+          servicePort: 7878 
+  - host: jackett.int.volfoni.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: radarr
+          servicePort: 9117
+

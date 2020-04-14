@@ -1,0 +1,61 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            86:6a:80:d0:3e:77:a1:1d:37:84:8b:56:8b:46:ca:5b
+    Signature Algorithm: ecdsa-with-SHA256
+        Issuer: CN=vpn.volfoni.org
+        Validity
+            Not Before: Oct 17 17:21:49 2019 GMT
+            Not After : Oct  1 17:21:49 2022 GMT
+        Subject: CN=vpn.volfoni.org
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (384 bit)
+                pub: 
+                    04:b8:31:34:7b:c4:86:62:3a:bd:e0:60:0e:fc:a7:
+                    d0:d2:1b:03:11:50:bd:0f:98:a7:25:fe:7a:9b:cb:
+                    ca:1a:85:d0:00:2b:24:17:49:78:4f:86:1d:2d:ae:
+                    7c:2c:b9:7a:80:4c:95:f7:6b:e4:6b:48:e6:6d:11:
+                    b8:91:ba:c8:04:10:69:fa:24:2e:aa:42:b9:a8:91:
+                    fd:ce:88:a9:d7:a7:78:a1:fa:42:7f:64:e3:a5:f8:
+                    25:98:1b:b0:d4:64:77
+                ASN1 OID: secp384r1
+                NIST CURVE: P-384
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                C5:1B:20:E5:32:6B:50:EE:5A:6C:5C:06:E0:56:6C:E1:6B:F8:C4:47
+            X509v3 Authority Key Identifier: 
+                keyid:95:47:19:BD:D2:C1:35:9F:11:D8:64:E8:56:3C:DE:BC:C1:B6:4A:FE
+                DirName:/CN=vpn.volfoni.org
+                serial:B5:9C:83:0C:15:6D:79:50
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:vpn.volfoni.org
+    Signature Algorithm: ecdsa-with-SHA256
+         30:66:02:31:00:f9:07:31:b7:3d:25:64:77:7d:d0:49:21:54:
+         6a:73:c4:83:c8:c1:6d:e6:59:8d:b8:ce:2a:a1:a9:3e:ed:6a:
+         3e:59:07:1d:c5:15:e9:35:91:01:72:ed:23:83:b9:1c:78:02:
+         31:00:e3:c9:42:2e:c7:cc:6c:76:5c:bc:e8:ab:60:98:e3:5c:
+         ca:ca:82:96:e8:d0:ba:0b:5c:cb:a6:b5:5e:aa:78:16:f5:ff:
+         a5:0a:cb:b5:5b:8b:4a:d5:a1:3c:c6:53:fa:41
+-----BEGIN CERTIFICATE-----
+MIICKTCCAa6gAwIBAgIRAIZqgNA+d6EdN4SLVotGylswCgYIKoZIzj0EAwIwGjEY
+MBYGA1UEAwwPdnBuLnZvbGZvbmkub3JnMB4XDTE5MTAxNzE3MjE0OVoXDTIyMTAw
+MTE3MjE0OVowGjEYMBYGA1UEAwwPdnBuLnZvbGZvbmkub3JnMHYwEAYHKoZIzj0C
+AQYFK4EEACIDYgAEuDE0e8SGYjq94GAO/KfQ0hsDEVC9D5inJf56m8vKGoXQACsk
+F0l4T4YdLa58LLl6gEyV92vka0jmbRG4kbrIBBBp+iQuqkK5qJH9zoip16d4ofpC
+f2TjpfglmBuw1GR3o4G3MIG0MAkGA1UdEwQCMAAwHQYDVR0OBBYEFMUbIOUya1Du
+WmxcBuBWbOFr+MRHMEoGA1UdIwRDMEGAFJVHGb3SwTWfEdhk6FY83rzBtkr+oR6k
+HDAaMRgwFgYDVQQDDA92cG4udm9sZm9uaS5vcmeCCQC1nIMMFW15UDATBgNVHSUE
+DDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwGgYDVR0RBBMwEYIPdnBuLnZvbGZv
+bmkub3JnMAoGCCqGSM49BAMCA2kAMGYCMQD5BzG3PSVkd33QSSFUanPEg8jBbeZZ
+jbjOKqGpPu1qPlkHHcUV6TWRAXLtI4O5HHgCMQDjyUIux8xsdly86KtgmONcysqC
+lujQugtcy6a1Xqp4FvX/pQrLtVuLStWhPMZT+kE=
+-----END CERTIFICATE-----

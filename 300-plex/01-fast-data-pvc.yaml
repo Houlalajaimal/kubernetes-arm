@@ -1,0 +1,12 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: fast-media-data-claim
+  annotations:
+    volume.beta.kubernetes.io/storage-class: "local-storage-fast"
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 300Gi

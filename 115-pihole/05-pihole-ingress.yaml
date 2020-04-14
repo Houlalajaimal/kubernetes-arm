@@ -6,10 +6,12 @@ metadata:
     traefik.frontend.rule.type: PathPrefix
 spec:
   rules:
-  - host: pihole.internal.cluster.lan
+  - host: pihole.int.volfoni.org
     http:
       paths:
       - path: /
         backend:
           serviceName: pihole-web
           servicePort: 8000
+  tls:
+   - secretName: wildcard-int-volfoni-org-tls

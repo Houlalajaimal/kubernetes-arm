@@ -1,0 +1,64 @@
+---
+# Create a selfsigned Issuer, in order to create a root CA certificate for
+# signing webhook serving certificates
+apiVersion: cert-manager.io/v1alpha2
+kind: Issuer
+metadata:
+  name: cert-manager-webhook-gandi-selfsign
+  namespace: "default"
+  labels:
+    app: cert-manager-webhook-gandi
+spec:
+  selfSigned: {}
+
+---
+
+# Generate a CA Certificate used to sign certificates for the webhook
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: cert-manager-webhook-gandi-ca
+  namespace: "default"
+  labels:
+    app: cert-manager-webhook-gandi
+spec:
+  secretName: cert-manager-webhook-gandi-ca
+  duration: 43800h # 5y
+  issuerRef:
+    name: cert-manager-webhook-gandi-selfsign
+  commonName: "ca.cert-manager-webhook-gandi.cert-manager"
+  isCA: true
+
+---
+
+# Create an Issuer that uses the above generated CA certificate to issue certs
+apiVersion: cert-manager.io/v1alpha2
+kind: Issuer
+metadata:
+  name: cert-manager-webhook-gandi-ca
+  namespace: "default"
+  labels:
+    app: cert-manager-webhook-gandi
+spec:
+  ca:
+    secretName: cert-manager-webhook-gandi-ca
+
+---
+
+# Finally, generate a serving certificate for the webhook to use
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: cert-manager-webhook-gandi-webhook-tls
+  namespace: "default"
+  labels:
+    app: cert-manager-webhook-gandi
+spec:
+  secretName: cert-manager-webhook-gandi-webhook-tls
+  duration: 8760h # 1y
+  issuerRef:
+    name: cert-manager-webhook-gandi-ca
+  dnsNames:
+  - cert-manager-webhook-gandi
+  - cert-manager-webhook-gandi.default
+  - cert-manager-webhook-gandi.default.svc

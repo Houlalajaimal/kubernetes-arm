@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: jellyfin
+  annotations:
+    traefik.frontend.rule.type: PathPrefix
+spec:
+  rules:
+  - host: jellyfin.int.volfoni.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: jellyfin-service
+          servicePort: 8096
+  tls:
+   - secretName: wildcard-int-volfoni-org-tls

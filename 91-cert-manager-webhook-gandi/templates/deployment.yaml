@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cert-manager-webhook-gandi
+  labels:
+    app: cert-manager-webhook-gandi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cert-manager-webhook-gandi
+  template:
+    metadata:
+      labels:
+        app: cert-manager-webhook-gandi
+    spec:
+      serviceAccountName: cert-manager-webhook-gandi
+      containers:
+        - name: cert-manager-webhook-gandi
+          image: houlalajaimal/cert-manager-webhook-gandi:latest
+          imagePullPolicy: IfNotPresent
+          args:
+            - --tls-cert-file=/tls/tls.crt
+            - --tls-private-key-file=/tls/tls.key
+            - --v=6
+          env:
+            - name: GROUP_NAME
+              value: "acme.volfoni.org"
+          ports:
+            - name: https
+              containerPort: 443
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              scheme: HTTPS
+              path: /healthz
+              port: https
+          readinessProbe:
+            httpGet:
+              scheme: HTTPS
+              path: /healthz
+              port: https
+          volumeMounts:
+            - name: certs
+              mountPath: /tls
+              readOnly: true
+          resources:
+            {}
+      volumes:
+        - name: certs
+          secret:
+            secretName: cert-manager-webhook-gandi-webhook-tls

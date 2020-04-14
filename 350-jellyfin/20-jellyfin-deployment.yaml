@@ -1,0 +1,74 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jellyfin
+spec:
+  selector:
+    matchLabels:
+      app: jellyfin
+  template:
+    metadata:
+      labels:
+        app: jellyfin
+    spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 1
+            preference:
+              matchExpressions:
+              - key : instanceType
+                operator: In
+                values:
+                - a6.large
+      containers:
+      - name: jellyfin
+        image: linuxserver/jellyfin
+        imagePullPolicy: Always
+        env:
+        - name: NODE_NAME
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: spec.nodeName
+        - name: POD_NAME
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.name
+        - name: POD_NAMESPACE
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+        - name: PUID
+          value: "1000"
+        - name: PGID
+          value: "1000" 
+        ports:
+        - containerPort: 8096
+          protocol: TCP
+        volumeMounts: 
+        - mountPath: /transcode 
+          name: media
+          subPath: jellyfin/transcode
+        - mountPath: /data/movies
+          name: media
+          subPath: movies/movies
+          readOnly: True
+        - mountPath: /config
+          name: media
+          subPath: jellyfin/config
+        - mountPath: /dev/dri
+          name: dri
+        securityContext:
+          privileged: true
+      restartPolicy: Always
+      volumes:
+        - name: dri
+          hostPath:
+            path: /dev/dri
+        - name: media
+          persistentVolumeClaim:
+            claimName: fast-media-data-claim

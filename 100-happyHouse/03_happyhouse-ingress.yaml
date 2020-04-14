@@ -6,10 +6,12 @@ metadata:
     traefik.frontend.rule.type: PathPrefix
 spec:
   rules:
-  - host: happyhouse.internal.cluster.lan
+  - host: happyhouse.int.volfoni.org
     http:
       paths:
       - path: /
         backend:
           serviceName: happyhouse-web
           servicePort: 80
+  tls:
+   - secretName: wildcard-int-volfoni-org-tls

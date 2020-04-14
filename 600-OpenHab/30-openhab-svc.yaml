@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: openhab
+  labels:
+    app: openhab
+    kubernetes.io/name: "openhab"
+spec:
+  selector:
+    app: openhab
+  ports:
+  - name: http
+    port: 80
+    targetPort: 8080
+  - name: https
+    port: 443
+    targetPort: 8443	
+  - name: console
+    port: 8101
+    targetPort: 8101	
+

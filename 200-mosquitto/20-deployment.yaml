@@ -1,0 +1,76 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mosquitto
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mosquitto
+  template:
+    metadata:
+      labels:
+        app: mosquitto
+    spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 1
+            preference:
+              matchExpressions:
+              - key : instanceType
+                operator: In
+                values:
+                - a4.medium
+      containers:
+      - name: mosquitto
+        image: eclipse-mosquitto:1.6.7
+        imagePullPolicy: Always
+        livenessProbe:
+          failureThreshold: 3
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          successThreshold: 1
+          tcpSocket:
+            port: 1883
+          timeoutSeconds: 2
+        readinessProbe:
+          failureThreshold: 3
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          successThreshold: 1
+          tcpSocket:
+            port: 1883
+          timeoutSeconds: 2
+        resources:
+          limits:
+            cpu: "300m"
+            memory: "25Mi"
+          requests:
+            cpu: "250m"
+            memory: "20Mi"
+        ports:
+        - containerPort: 9001
+        - containerPort: 1883
+        volumeMounts:
+        - name: mosquitto-config
+          mountPath: /mosquitto/config
+        - name: mosquitto-extra-config
+          mountPath: /mosquitto/config/conf.d
+        - name: mosquitto-data
+          mountPath: /mosquitto/data
+        - name: mosquitto-log
+          mountPath: /mosquitto/log
+      volumes:
+      - name: mosquitto-config
+        configMap:
+          name: mosquitto-config-map
+      - name: mosquitto-extra-config
+        configMap:
+          name: mosquitto-extra-config-map
+      - name: mosquitto-data 
+        persistentVolumeClaim:
+          claimName: mosquitto-data-claim
+      - name: mosquitto-log
+        persistentVolumeClaim:
+          claimName: mosquitto-log-claim

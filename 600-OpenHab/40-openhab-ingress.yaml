@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: openhab
+  annotations:
+    traefik.frontend.rule.type: PathPrefix
+spec:
+  rules:
+  - host: openhab.int.volfoni.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: openhab
+          servicePort: 443
+

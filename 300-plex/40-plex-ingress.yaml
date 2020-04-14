@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: plex
+  annotations:
+    traefik.frontend.rule.type: PathPrefix
+spec:
+  rules:
+  - host: plex.int.volfoni.org
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: plex-tcp
+          servicePort: 32400 
+  tls:
+#  - hosts:
+#    - plex.int.volfoni.org
+#    secretName: plex.int.volfoni.org-selfsigned-cert-tls
+   - secretName: wildcard-int-volfoni-org-tls

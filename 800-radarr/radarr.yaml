@@ -1,0 +1,105 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: radarr
+spec:
+  ports:
+    - port: 7878
+      protocol: TCP
+      targetPort: 7878
+      name: webui
+    - port: 9117
+      protocol: TCP
+      targetPort: 9117
+      name: jackett
+  selector:
+    run: radarr
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: radarr
+  name: radarr
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: radarr
+  template:
+    metadata:
+      labels:
+        run: radarr
+    spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 1
+            preference:
+              matchExpressions:
+              - key : instanceType
+                operator: In
+                values:
+                - a4.medium
+      securityContext:
+        # runAsUser: 1000
+        # runAsGroup: 1000
+        fsGroup: 1000
+      containers:
+        - image: linuxserver/radarr
+          name: radarr
+          resources:
+            requests:
+              memory: "500Mi"
+            limits:
+              memory: "600Mi"
+          env:
+            - name: TZ
+              value: Europe/Luxembourg
+            - name: PUID
+              value: "1000"
+            - name: PGID
+              value: "1000"
+          ports:
+            - containerPort: 7878
+              name: webui
+          volumeMounts:
+            - name: radarr-config
+              mountPath: /config
+            - name: radarr-movies
+              subPath: movies
+              mountPath: /movies
+            - name: radarr-movies
+              subPath: completed
+              mountPath: /completed
+        - image: linuxserver/jackett
+          name: jackett
+          imagePullPolicy: Always
+          resources:
+            requests:
+              memory: "300Mi"
+            limits:
+              memory: "400Mi"
+          ports:
+            - containerPort: 9117
+              name: http
+          env:
+            - name: TZ
+              value: Europe/Luxembourg
+            - name: PUID
+              value: "1000"
+            - name: PGID
+              value: "1000"
+          volumeMounts:
+            - name: radarr-config
+              mountPath: /config
+            - name: radarr-movies
+              subPath: movies
+              mountPath: /movies
+      volumes:
+        - name: radarr-movies
+          persistentVolumeClaim:
+            claimName: plex-data-claim
+        - name: radarr-config
+          persistentVolumeClaim:
+            claimName: radarr-config-claim

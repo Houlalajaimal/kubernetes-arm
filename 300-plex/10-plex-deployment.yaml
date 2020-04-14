@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: plex
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: plex
+  template:
+    metadata:
+      labels:
+        app: plex
+    spec:
+      affinity:
+        nodeAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 1
+            preference:
+              matchExpressions:
+              - key : instanceType
+                operator: In
+                values:
+                - a6.large
+      hostNetwork: true
+      containers:
+      - name: plex
+        image: linuxserver/plex:1.18.7.2457-77cb9455c-ls80
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 32400
+          name: plex
+        - containerPort: 32400
+          name: plex-udp
+          protocol: UDP
+        - containerPort: 32469
+          name: plex2
+        - containerPort: 32469
+          name: plex2-udp
+          protocol: UDP
+        - containerPort: 5353
+          name: plex3-udp
+          protocol: UDP
+        - containerPort: 1900
+          name: plex4-udp
+          protocol: UDP
+        env:
+        - name: PUID
+          value: "1000"
+        - name: PGID
+          value: "1000"
+        - name: VERSION
+          value: "latest"
+        volumeMounts:
+        - name: plex-media
+          mountPath: /config
+          subPath: plex
+        - name: plex-media
+          mountPath: /data
+          subPath: movies
+      volumes:
+      - name: plex-media
+        persistentVolumeClaim:
+          claimName: fast-media-data-claim

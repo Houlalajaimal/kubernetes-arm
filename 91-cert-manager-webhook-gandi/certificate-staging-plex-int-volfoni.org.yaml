@@ -1,0 +1,10 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: plex-int-volfoni-org-staging
+spec:
+  dnsNames:
+  - plex.int.volfoni.org
+  issuerRef:
+    name: letsencrypt-staging
+  secretName: plex-int-volfoni-org-tls

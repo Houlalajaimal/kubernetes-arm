@@ -1,0 +1,72 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            29:27:38:e5:c1:57:d8:c2:2d:7b:86:b1:6a:3d:be:3b
+    Signature Algorithm: ecdsa-with-SHA256
+        Issuer: CN=vpn.volfoni.org
+        Validity
+            Not Before: Oct 17 17:28:33 2019 GMT
+            Not After : Oct  1 17:28:33 2022 GMT
+        Subject: CN=OnePlus5T
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ac:1a:ea:f3:bf:05:43:11:5b:1d:91:0f:db:e8:
+                    c2:5c:b0:94:25:66:3c:63:bf:7d:7a:c1:d1:88:1c:
+                    80:12:5f:e3:1d:02:69:c3:d4:4f:a0:55:d6:49:05:
+                    a2:6e:71:c6:29:c6:6d:58:e6:f3:25:2c:a2:7a:19:
+                    3b:5d:e0:7e:15:4d:02:06:33:28:59:7d:62:55:a5:
+                    40:2e:84:98:4f:cb:29:fc:c9:92:1f:6c:1c:8b:bb:
+                    9b:79:fb:83:0b:ca:71:94:48:07:3d:cc:b2:ce:6b:
+                    97:66:bc:e8:4c:3a:df:05:ff:fb:50:2d:6e:44:b7:
+                    cc:ea:d3:52:56:66:16:8e:5b:e7:dc:8d:e6:fb:97:
+                    45:38:c7:8f:f7:c6:31:28:cc:2d:fd:2b:9c:68:a2:
+                    53:e8:52:bb:4a:41:9a:e3:11:b7:08:49:8c:fc:80:
+                    90:d9:60:25:e0:c7:fb:15:6f:4e:79:78:bf:9e:e8:
+                    a1:98:03:dc:ec:1d:ba:2b:2c:58:6f:d1:7a:ef:a1:
+                    ad:30:9e:66:4f:c2:61:5b:7f:b9:08:cc:05:85:1f:
+                    a5:66:a1:5e:dc:7a:9d:95:cd:e0:cc:38:5a:a9:7d:
+                    15:7b:65:b7:9d:85:21:f9:b5:60:95:84:b3:fd:53:
+                    8c:37:76:36:c8:2e:d1:8e:6c:25:1b:14:de:64:d5:
+                    cc:e3
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                4F:88:CE:2B:C7:76:56:21:D2:1B:32:A7:16:3C:75:97:CD:FE:CD:CF
+            X509v3 Authority Key Identifier: 
+                keyid:95:47:19:BD:D2:C1:35:9F:11:D8:64:E8:56:3C:DE:BC:C1:B6:4A:FE
+                DirName:/CN=vpn.volfoni.org
+                serial:B5:9C:83:0C:15:6D:79:50
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: ecdsa-with-SHA256
+         30:66:02:31:00:e6:28:af:40:db:bf:84:91:de:1d:ba:e9:16:
+         92:6f:c5:e4:1a:7c:de:15:91:25:25:1b:ea:b3:bd:87:8c:ca:
+         5f:18:4f:8d:65:ab:5c:5f:54:de:38:61:08:b4:b7:59:0c:02:
+         31:00:81:4d:ac:27:a6:fe:3b:19:8d:ab:65:e6:55:de:9d:01:
+         72:4d:6e:fd:46:6c:86:ab:21:e2:5f:c2:c2:f3:e7:cc:25:30:
+         5e:00:58:30:73:51:34:7d:ce:c3:4d:7a:65:71
+-----BEGIN CERTIFICATE-----
+MIICtDCCAjmgAwIBAgIQKSc45cFX2MIte4axaj2+OzAKBggqhkjOPQQDAjAaMRgw
+FgYDVQQDDA92cG4udm9sZm9uaS5vcmcwHhcNMTkxMDE3MTcyODMzWhcNMjIxMDAx
+MTcyODMzWjAUMRIwEAYDVQQDDAlPbmVQbHVzNVQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCsGurzvwVDEVsdkQ/b6MJcsJQlZjxjv316wdGIHIASX+Md
+AmnD1E+gVdZJBaJuccYpxm1Y5vMlLKJ6GTtd4H4VTQIGMyhZfWJVpUAuhJhPyyn8
+yZIfbByLu5t5+4MLynGUSAc9zLLOa5dmvOhMOt8F//tQLW5Et8zq01JWZhaOW+fc
+jeb7l0U4x4/3xjEozC39K5xoolPoUrtKQZrjEbcISYz8gJDZYCXgx/sVb055eL+e
+6KGYA9zsHborLFhv0Xrvoa0wnmZPwmFbf7kIzAWFH6VmoV7cep2VzeDMOFqpfRV7
+ZbedhSH5tWCVhLP9U4w3djbILtGObCUbFN5k1czjAgMBAAGjgZswgZgwCQYDVR0T
+BAIwADAdBgNVHQ4EFgQUT4jOK8d2ViHSGzKnFjx1l83+zc8wSgYDVR0jBEMwQYAU
+lUcZvdLBNZ8R2GToVjzevMG2Sv6hHqQcMBoxGDAWBgNVBAMMD3Zwbi52b2xmb25p
+Lm9yZ4IJALWcgwwVbXlQMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIH
+gDAKBggqhkjOPQQDAgNpADBmAjEA5iivQNu/hJHeHbrpFpJvxeQafN4VkSUlG+qz
+vYeMyl8YT41lq1xfVN44YQi0t1kMAjEAgU2sJ6b+OxmNq2XmVd6dAXJNbv1GbIar
+IeJfwsLz58wlMF4AWDBzUTR9zsNNemVx
+-----END CERTIFICATE-----

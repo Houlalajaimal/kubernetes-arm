@@ -30,7 +30,7 @@ metadata:
   namespace: kube-system
 spec:
   rules:
-  - host: traefik.internal.cluster.lan
+  - host: traefik.int.volfoni.org
     http:
       paths:
       - path: /

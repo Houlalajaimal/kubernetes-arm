@@ -1,0 +1,17 @@
+--- 
+apiVersion: cert-manager.io/v1alpha2 
+kind: Issuer 
+metadata:
+  name: selfsigned 
+spec: 
+  selfSigned: {}
+---
+apiVersion: cert-manager.io/v1alpha2 
+kind: Certificate 
+metadata:
+  name: plex.int.volfoni.org-selfsigned-cert 
+spec: 
+  commonName: plex.int.volfoni.org
+  secretName: plex.int.volfoni.org-selfsigned-cert-tls 
+  issuerRef:
+    name: selfsigned
