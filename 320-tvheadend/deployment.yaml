@@ -1,0 +1,65 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tvheadend
+  labels:
+    name: tvheadend
+    tier: tv
+spec:
+  selector:
+    matchLabels:
+      name: tvheadend
+  template:
+    metadata:
+      labels:
+        name: tvheadend
+        tier: tv
+    spec:
+#      hostNetwork: true
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                - key : instanceType
+                  operator: In
+                  values:
+                  - a4.medium
+                - key : wireguard
+                  operator: In
+                  values:
+                  - enabled
+      containers:
+        - name: tvheadend
+          image: linuxserver/tvheadend:arm64v8-1c67c04c-ls63
+          env:
+          - name: PUID
+            value: "1000"
+          - name: PGID
+            value: "1000"
+          - name: TZ
+            value: "Europe/Luxembourg"
+          ports:
+            - containerPort: 9981
+              name: web
+            - containerPort: 9982
+              name: htsp
+          volumeMounts:
+#            - mountPath: /exports/video
+#              subPath: tvheadend
+#              name: tvheadend-record-claim
+            - mountPath: /config
+              name: tvheadend-config
+            - mountPath: /dev/dri
+              name: dri
+      volumes:
+        - name: tvheadend-record-claim
+          persistentVolumeClaim:
+            claimName: fastmedianfs-pv-claim 
+        - name: tvheadend-config
+          persistentVolumeClaim:
+            claimName: tvheadend-config-claim
+        - name: dri
+          hostPath:
+            path: /dev/dri
