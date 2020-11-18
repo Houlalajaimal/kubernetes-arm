@@ -1,0 +1,779 @@
+#EXTM3U
+#EXTINF:-1,▬ France [FR] ▬
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16539 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,13ème RUE HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2250 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,6ter HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3723 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,A+ FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18249 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Automoto la chaîne HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18248 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,AB1 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3731 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,AB1 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13144 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Action HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/4507 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Altice Studio FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18250 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Animaux FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/4469 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Animaux HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13119 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Arte HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3726 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,BE Curious HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20165 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,BET FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16831 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,BFM Business FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20121 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport News FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18252 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,BFM TV FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3607 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Boing HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13176 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Boomerang FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2240 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,C8 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2227 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,CNews HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13154 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,COMEDIE+ HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13146 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,CSTAR HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/4459 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal J HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2239 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Cinéma FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15283 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Cinéma HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13131 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Décalé FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3733 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Décalé HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13134 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Family FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3735 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Family HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13132 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2206 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Sport FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2210 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Sport HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13149 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Séries HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2211 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,CanalPlay 1 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/6448 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,CanalPlay 2 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/6447 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,CanalPlay 3 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/6446 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,CanalPlay 4 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/6445 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,CanalPlay 5 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/6444 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Cartoon Network HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2246 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Chasse et Pêche FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2257 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Chérie 25 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13158 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Cine+ Classic HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2217 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Cine+ Club HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16830 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Cine+ Famiz HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2215 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Cine+ Frisson HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2212 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Cine+ Premier HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2213 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Cine+ Émotion HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2214 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Crime District FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20265 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Channel HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/7579 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Science HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/7578 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Disney Channel FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2241 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Disney Channel HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13126 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Disney Cinema HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13169 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Disney Junior HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13170 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Disney XD HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13171 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Djazz TV FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/17885 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,E! HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2229 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Equidia Live HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13181 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Euronews FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3751 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Eurosport 1 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2013 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Eurosport 2 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/7572 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Extreme Sports Channel FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/21904 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France 2 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/14907 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France 2 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2200 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France 24 Arabic FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/6287 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France 24 English FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/17303 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France 24 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/17302 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France 24 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3753 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France 3 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2201 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France 4 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20166 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France 4 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2202 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France 5 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2203 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,France Ô FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3752 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Franceinfo: FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/21900 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Game One HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/7574 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Golf+ HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13179 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Gulli HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/4465 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Histoire HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13166 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Infosport+ HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/7571 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Investigation Discovery FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20266 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,J-One FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/21530 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,L'Equipe 21 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/4468 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,LCI HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16834 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,LCP FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18215 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,M6 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3758 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,M6 Music FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/4476 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,MCM FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18106 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,MCM top FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/19013 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,MTV France HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/21902 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,MTV Hits HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/21903 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Mangas FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2245 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Mezzo FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16832 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Mezzo Live HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16833 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,My Cuisine FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18255 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,NRJ 12 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3760 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,NRJ Hits HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20429 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,National Geographic FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/4467 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,National Geographic Wild HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3606 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Nick Jr. FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13173 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Nickelodeon 4Teen FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15638 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Nickelodeon HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13172 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Nollywood TV HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18256 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Story FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3750 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Story FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13141 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Choc HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/7576 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS City HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3763 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Geants HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3762 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Go Cine 1 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18107 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Go Cine 2 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18108 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Go Cine 3 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18109 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Go Cine 4 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18110 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Go Cine 5 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18111 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Go Cine 6 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18112 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Go Cine 7 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18113 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Go Cine 8 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18114 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OCS Max HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3761 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,OL TV HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20122 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,PIWI+ HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13174 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Paramount Channel HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13163 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Paris Première HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2224 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Planète+ Action & Experience HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13124 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Planète+ Action & Expérience FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2248 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Planète+ Crime Investigation FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15639 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Planète+ Crime Investigation HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2249 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Planète+ FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2247 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polar+ HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/7805 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RFM TV HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18258 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Découverte HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13157 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RTL9 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3771 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport 1 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13182 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport 2 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2251 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport 3 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/21522 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport 4 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13148 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Science & Vie TV HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13115 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Seasons HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13186 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Sundance TV FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18259 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Syfy HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2228 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Série Club HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2221 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TCM Cinéma FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2218 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TF1 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/14906 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TF1 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2204 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TIJI HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2237 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TMC FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13164 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TV Breizh FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2244 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TV Breizh HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13125 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TV5MONDE Europe FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3769 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TéléToon + HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/4466 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Toonami FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18104 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Toute l'histoire FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/7798 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Trace Africa HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18260 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Trace Urban FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18261 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Trek HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13185 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Téva FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/2225 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Ushuaïa TV HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/4491 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Viceland FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18262 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Voyage HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13167 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,W9 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/3770 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Wéo TV FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/4464 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Baby TV FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22304 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TF1 Séries Films FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23326 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TFX FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23351 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Family HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23439 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Trace Mziki HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/24151 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Trace Naija HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/24153 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Trace Sport Stars FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/24152 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Trace Tropical FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/24150 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Foot+ 24/24 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/17245 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,MyZen TV FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18254 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Golf Channel FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/27631 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Trace Latina HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/27928 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Gong TV FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28187 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Paramount Décalé FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18257 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Melody FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28426 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport 1 4K FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/26277 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Access 1 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28583 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Access 2 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28584 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Access 3 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28585 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 5 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28586 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 6 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28587 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 7 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28588 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 8 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28589 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 9 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28590 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 10 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28591 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 11 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28592 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 12 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28593 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 13 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28594 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 14 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28595 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,RMC Sport Live 15 FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28596 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,▬ Poland [PL] ▬
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16520 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Now FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/29051 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,13 Ulica HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15100 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Adventure HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15205 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,AMC Polska FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15218 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,AXN Black PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11512 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,AXN Polska HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11699 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,AXN Polska PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11511 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,AXN Spin HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11629 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,AXN White PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11513 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Turbo Xtra PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11196 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Ale kino+ FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15219 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Animal Planet HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13540 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,BBC Earth HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13538 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,BBC First FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13537 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Boomerang HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11522 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ 1 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15204 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Dokument FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15217 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Family FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15216 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Film FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15215 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Motowizja FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/19153 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Seriale FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15214 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,WP Telewizja PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11517 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,CBS Europa FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15202 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,CBS Reality PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11518 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Comedy Central Extra Polsat PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11704 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13530 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Sport FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13535 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Sport 2 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15709 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Cartoon Network FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15203 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Cinemax HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15710 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Cinemax 2 HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15099 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Crime & Investigation FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/24146 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Domo+ FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15199 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Channel FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15213 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Historia PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15098 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Life FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11520 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Science PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15201 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Turbo Xtra FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15212 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Metro PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11195 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Disney Channel HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11523 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Disney Junior PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15200 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Disney XD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11524 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Eleven Sports 1 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15198 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Eleven Sports 2 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15197 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Eleven Sports 3 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15097 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Eleven Sports 4 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/19149 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Epic Drama PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/19081 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,E! FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22302 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Eurosport 1 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15096 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Eurosport 2 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15195 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Extreme Sports FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15194 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,FightBox HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15095 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Fight Klub FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15193 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,FilmBox Action PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11508 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,FilmBox Family PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11509 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Kino TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11507 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,FilmBox Premium HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11510 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Fokus TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/12821 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,FOX Comedy Polska HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11698 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,FOX Comedy Polska PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11634 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,FOX Polska HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11697 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,H2 Polska HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15093 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,HBO FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13526 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,HBO 2 HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13527 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,HBO 3 HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15092 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,History HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15091 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Investigation Discovery FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15211 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Kino Polska Muzyka PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15090 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Kino Polska PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11192 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Kuchnia + FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15210 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Lifetime HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15089 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,MTV Rocks PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11703 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,MTV Polska FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11702 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,MTV Live HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20424 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,MiniMini + HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15088 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,NTL PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15190 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,National Geographic FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15087 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,National Geographic Polska PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11515 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,National Geographic People HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15191 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,National Geographic Wild HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15711 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,National Geographic Wild PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11516 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Nick Jr. PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11706 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Nickelodeon PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11705 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Power TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15187 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,HGTV HD  PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11188 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Planete + Polska HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15208 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polo TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/13517 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polonia 1 PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11711 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat 2 HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/12817 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat 2 PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11185 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Café HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11198 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Film HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15086 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11696 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,JimJam Polsat PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11710 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat News 2 PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11181 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat News HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15085 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Doku HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20123 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Music HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/21527 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Play HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11177 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Romans PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11709 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Sport Extra HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11201 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Sport Fight FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15188 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Sport Premium 1 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23369 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Sport Premium 2 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23370 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Sport Premium 3 PPV FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23420 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Sport Premium 4 PPV FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23421 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Sport Premium 5 PPV FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23422 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Sport Premium 6 PPV FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23423 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Sport HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11200 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Super Polsat HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11199 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Viasat History HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15084 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TV Puls 2 PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15185 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Romance TV Polska FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15207 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Scifi Universal FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20124 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Stars TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15082 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Tele 5 PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11630 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TLC HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15080 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TLC PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11632 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TNT FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15184 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TOTV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15183 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TTV FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15181 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TV 4 HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11178 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TV6 HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/19082 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP Info FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15078 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVN 24 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15180 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVN 7 HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15179 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVN Fabuła FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15178 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVN FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15177 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVN Style FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15176 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVN Turbo FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15175 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVN Turbo PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/19085 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVN24Bis HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/19152 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVN PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/19087 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP 1 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/12810 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP 2 HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/12811 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP 3 Warszawa PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15077 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP ABC PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15076 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP Historia PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15075 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP Info PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15074 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP Seriale PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11514 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP Sport FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/12826 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP Kultura PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/24147 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVS PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/12820 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Da Vinci Learning PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15182 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,VH1 Polska PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11701 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,VOX Music TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15174 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,N Sport + FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15209 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TéléToon + FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15206 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,4 Fun Dance PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16291 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,4 Fun Gold Hits PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16290 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,4 Fun TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16289 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,FilmBox Arthouse PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16287 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Stopklatka TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16284 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TV Republika PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16283 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP Rozrywka PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16282 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,VOD 205 PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16279 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,VOD 206 PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16278 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,VOD 207 PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16277 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Zoom TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16271 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Sport Klub Polska HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16835 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TV Puls HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/16606 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,ATM Rozrywka PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/17040 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Viasat Explore Polsat FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18387 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Travel Channel FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18389 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TV 6 HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18393 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18392 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,W Polsce PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/19084 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Viasat Nature Polsat PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/18388 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,NickToons Polska FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22772 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Comedy Central Polska FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22771 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Comedy Central Extra Polsat FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22770 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Paramount Channel Polska FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22769 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Nowa TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22768 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Water Planet PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22767 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TV Okazje PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22766 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Disco Polo Music PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22765 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Food Network FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22764 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Viasat Nature Polsat FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22763 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Sport News FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22762 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Baby TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/22303 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Eska TV Extra PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11182 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,VOD 208 PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23299 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,BBC Brit Polska FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23317 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,BBC Lifestyle Polska FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23318 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,BBC CBeebies PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/23427 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Eska TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/11197 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Games FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/24376 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Polsat Rodzina FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/24377 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Life PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/27037 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Discovery Channel PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/27048 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Investigation Discovery PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/27128 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,FilmBox Extra HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/27555 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Red Carpet FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/27543 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Sundance TV FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/20422 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Golf Channel HD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/27541 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Nuta TV PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/27540 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Sport 3 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28019 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Canal+ Sport 4 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/28020 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVR PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.sensustv.xdns.pro:80/zbjN5ZTLRDWh895/rPZorZ141/15394 -map 0 -c copy -f mpegts -tune zerolatency pipe:1

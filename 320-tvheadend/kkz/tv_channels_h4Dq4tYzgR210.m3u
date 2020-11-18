@@ -1,0 +1,31 @@
+#EXTM3U
+#EXTINF:-1,▬ France [FR] ▬
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/16539 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,13ème RUE HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/2250 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,6ter HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/3723 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,A+ FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/18249 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Automoto la chaîne HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/18248 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,AB1 FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/3731 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,AB1 HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/13144 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Action HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/4507 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Altice Studio FHD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/18250 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Animaux FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/4469 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Animaux HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/13119 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,Arte HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/3726 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,BE Curious HD FR
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/20165 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVP Info FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/15078 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1,TVN 24 FHD PL
+ pipe:///usr/bin/ffmpeg -loglevel fatal -re -i http://tv.kkzbigserver.iptv.uno:80/h4Dq4tYzgR210/JIUZnR067/15180 -map 0 -c copy -f mpegts -tune zerolatency pipe:1
