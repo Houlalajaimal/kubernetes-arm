@@ -1,0 +1,10 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: fast-media-nfs
+provisioner: rook.io/nfs-provisioner
+parameters:
+  exportName: fast-media-nfs
+  nfsServerName: rook-nfs
+  nfsServerNamespace: default
+reclaimPolicy: Retain
